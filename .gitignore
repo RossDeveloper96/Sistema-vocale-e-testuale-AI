@@ -1,0 +1,30 @@
+# ---- Segreti (MAI su GitHub) ----
+.env
+*.env
+!.env.example
+
+# ---- Python / backend ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ---- File generati a runtime ----
+backend/storage/audio/
+backend/storage/uploads/
+*.db
+*.sqlite3
+
+# ---- Node / mobile ----
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+
+# ---- Editor ----
+.vscode/
+.idea/

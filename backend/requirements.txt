@@ -1,0 +1,13 @@
+# --- Web framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20      # serve a FastAPI per ricevere file caricati
+
+# --- Configurazione (legge il file .env) ---
+pydantic-settings==2.7.1
+
+# --- Estrazione testo ---
+pypdf==5.1.0                  # testo dai PDF "normali"
+python-docx==1.1.2            # testo dai file Word (.docx)
+pytesseract==0.3.13           # OCR: testo da immagini (richiede Tesseract installato)
+Pillow==11.1.0                # apertura immagini per l'OCR
